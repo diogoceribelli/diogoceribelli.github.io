@@ -6,3 +6,23 @@ window.setInterval(function(){
   };
   console.log(n);
 }, 5000);
+
+switch(n) {
+  case 1:
+    console.log("azul");
+    break;
+  case 2:
+    console.log("amarelo");
+    break;
+  case 3:
+    console.log("verde");
+    break;
+  case 4:
+    console.log("cinza");
+    break;
+  case 5:
+    console.log("vermelho");
+    break;
+  default:
+    console.log("roxo");
+}

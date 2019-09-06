@@ -1,5 +1,4 @@
 var n = 1;
-
 switch(n) {
   case 1:
     jQuery("body").removeClass();
@@ -25,13 +24,11 @@ switch(n) {
     jQuery("body").removeClass();
     jQuery("body").addClass("purple");
   }
-
 window.setInterval(function(){ 
   n++;
   if (n > 5) {
   	n = 1;
   };
-
   switch(n) {
   case 1:
     jQuery("body").removeClass();
@@ -57,6 +54,5 @@ window.setInterval(function(){
     jQuery("body").removeClass();
     jQuery("body").addClass("purple");
   }
-
 }, 1000);
 

@@ -1,21 +1,7 @@
-body.blue {
-	background-color: blue;
-}
-body.yellow {
-	background-color: yellow;
-}
-body.green {
-	background-color: green;
-}
-body.grey {
-	background-color: grey;
-}
-body.red {
-	background-color: red;
-}
-body.purple {
-	background-color: purple;
-}
-body {
-	transition: background-color 1s ease;
-}
+body.blue {background-color: blue;} body.blue .circle {background-color: red;}
+body.yellow {background-color: yellow;} body.yellow .circle {background-color: blue;}
+body.green {background-color: green;} body.green .circle {background-color: yellow;}
+body.grey {background-color: grey;} body.grey .circle {background-color: green;}
+body.red {background-color: red;} body.red .circle {background-color: grey;}
+body.purple {background-color: purple;} body.purple .circle {background-color: red;}
+body, .circle {transition: background-color 1s ease;}

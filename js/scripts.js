@@ -6,27 +6,39 @@ window.setInterval(function(){
   	n = 1;
   };
   console.log(n);
-}, 5000);
+}, 3000);
 
 jQuery(n).change(function() {
   switch(n) {
   case 1:
-    console.log("azul");
+    jQuery("body").css({
+    	'background-color':'blue'
+    });
     break;
   case 2:
-    console.log("amarelo");
+    jQuery("body").css({
+    	'background-color':'yellow'
+    });
     break;
   case 3:
-    console.log("verde");
+    jQuery("body").css({
+    	'background-color':'green'
+    });
     break;
   case 4:
-    console.log("cinza");
+    jQuery("body").css({
+    	'background-color':'grey'
+    });
     break;
   case 5:
-    console.log("vermelho");
+    jQuery("body").css({
+    	'background-color':'red'
+    });
     break;
   default:
-    console.log("roxo");
+    jQuery("body").css({
+    	'background-color':'purple'
+    });
   }
 });
 

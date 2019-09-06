@@ -5,3 +5,10 @@ body.grey {background-color: grey;} body.grey .circle {background-color: green;}
 body.red {background-color: red;} body.red .circle {background-color: grey;}
 body.purple {background-color: purple;} body.purple .circle {background-color: red;}
 body, .circle {transition: background-color 1s ease;}
+.circle {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 14%;
+}

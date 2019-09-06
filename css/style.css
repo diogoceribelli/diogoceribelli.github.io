@@ -16,3 +16,6 @@ body.red {
 body.purple {
 	background-color: purple;
 }
+body {
+	transition: background-color 1s ease;
+}

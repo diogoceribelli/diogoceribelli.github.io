@@ -31,7 +31,6 @@ window.setInterval(function(){
   if (n > 5) {
   	n = 1;
   };
-  console.log(n);
 
   switch(n) {
   case 1:
@@ -59,5 +58,5 @@ window.setInterval(function(){
     jQuery("body").addClass("purple");
   }
 
-}, 5000);
+}, 1000);
 

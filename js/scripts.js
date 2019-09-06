@@ -2,22 +2,28 @@ var n = 1;
 
 switch(n) {
   case 1:
-    console.log("azul");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("blue");
     break;
   case 2:
-    console.log("amarelo");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("yellow");
     break;
   case 3:
-    console.log("verde");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("green");
     break;
   case 4:
-    console.log("cinza");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("grey");
     break;
   case 5:
-    console.log("vermelho");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("red");
     break;
   default:
-    console.log("roxo");
+    jQuery("body").removeClass();
+    jQuery("body").addClass("purple");
   }
 
 window.setInterval(function(){ 

@@ -11,22 +11,28 @@ window.setInterval(function(){
 jQuery(n).change(function() {
   switch(n) {
   case 1:
-    jQuery("body").css("background-color","blue")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("blue");
     break;
   case 2:
-    jQuery("body").css("background-color","yellow")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("yellow");
     break;
   case 3:
-    jQuery("body").css("background-color","green")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("green");
     break;
   case 4:
-    jQuery("body").css("background-color","grey")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("grey");
     break;
   case 5:
-    jQuery("body").css("background-color","red")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("red");
     break;
   default:
-    jQuery("body").css("background-color","purple")
+    jQuery("body").removeClass();
+    jQuery("body").addClass("purple");
   }
 });
 

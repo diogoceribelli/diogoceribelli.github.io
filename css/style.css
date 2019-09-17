@@ -472,7 +472,7 @@ footer .logos {
 @media screen and (max-width:430px) {
 	.button {
 	    width: 135px;
-	    font-size: 11px;
+	    font-size: 9px;
 	}
 	.logo img, .logo {
 	    width: 150px;
@@ -492,5 +492,9 @@ footer .logos {
 	}
 	#servicos .bloco {
 	    height: auto;
+	}
+	button#enviar {
+	    width: 230px;
+	    height: 50px;
 	}
 }

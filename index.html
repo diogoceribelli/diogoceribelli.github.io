@@ -1,23 +1,297 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Meu Portfólio</title>
+	<!-- metas -->
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<meta name="description" content="Empresa especializada em CRM e treinamento Salesforce, consultoria em CRM de qualidade, entre em contato agora e saiba mais...">
+    <title>BeeCloud</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+	<!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header></header>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0"></script>
 
-<section>
+<div id="home"></div>
+<header>
+	<div class="header">
+		<div class="container">
+			<h1 style="display: none;">BeeCloud Solutions</h1>
+			<div class="logo"><img src="images/logo.png"></div>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#empresa">Empresa</a></li>
+					<li><a href="#clientes-e-parceiros">Clientes</a></li>
+					<li><a href="#clientes-e-parceiros">Parceiros</a></li>
+					<li><a href="#contato">Contato</a></li>
+					<li><a href="https://www.salesforce.com/br/?ir=1" target="_blank">Blog</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
 
-<div class="circle"></div>
+<div class="banners-principais">
+	<div class="container">
+		<div class="banner-slide">
+			<div><img data-lazy="images/banners/banner1.jpg"></div>
+			<div><img data-lazy="images/banners/banner2.jpg"></div>
+			<div><img data-lazy="images/banners/banner3.jpg"></div>
+		</div>
+	</div>
+</div>
 
+<section id="bem-vindo">
+	<div class="container">
+		<h2>BeeCloud Solutions</h2>
+		<h3>Seja bem vindo a BeeCloud Solutions, uma empresa voltada para serviços em computação em nuvem.
+O nosso objetivo é melhorar o seu negócio.</h3>	
+		<div class="buttons">
+			<a href="#contato"><div class="button yellow">Faça um Contato</div></a>
+			<a href="#clientes-e-parceiros"><div class="button blue">Clientes e Parceiros</div></a>
+		</div>
+	</div>
 </section>
 
-<footer></footer>
+<section id="servicos">
+	<div class="container">
+		<h2>Serviços</h2>
 
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/scripts.js"></script>
+		<div class="all-blocos">
+			<div class="bloco">
+				<img src="images/apoio1.png">
+				<div class="text-block">
+					<h3>Desenvolvimento na plataforma Force.com</h3>
+					<span>Temos especialistas certificados para desenvolvimento na plataforma Force.com, com experiência em clientes de médio e grande porte. O nosso processo de desenvolvimento é aliado a metodologias e ferramentas produtividade através de gestão a vista e transparente.</span>
+				</div>
+			</div>
+			<div class="bloco">
+				<img src="images/apoio2.png">
+				<div class="text-block">
+					<h3>Estruturação e Integração de Dados</h3>
+					<span>O serviço de estruturação de dados visa analisar sua massa de dados existente com o objetivo de melhorar o desempenho e a produtividade dos seus usuários. A BeeCloud analisa a arquitetura dos sistemas existentes e propõe a melhor ferramenta de integração.</span>
+				</div>
+			</div>
+			<div class="bloco">
+				<img src="images/apoio3.png">
+				<div class="text-block">
+					<h3>Implantação, Administração e Treinamento CRM Salesforce.com</h3>
+					<span>A BeeCloud tem uma equipe certificada para implantação, administração e treinamento do CRM Salesforce.com. Seguimos a mesma metodologia de implantação definida pela própria Salesforce.com bem como as melhores práticas de gestão de mudança para adoção do CRM.</span>
+				</div>
+			</div>
+			<div class="bloco">
+				<img src="images/apoio4.png">
+				<div class="text-block">
+					<h3>Análise e Mapeamento de Processos</h3>
+					<span>A analise e mapeamento de processos é uma das fases do plano de implantação (Assessment). Esse serviço pode ser realizado mesmo sem a definição de que plataforma de CRM o cliente irá utilizar. Essa atividade também serve base para definir qual plataforma de CRM utilizar.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="empresa">
+	<div class="container">
+		<h2>Empresa</h2>
+
+		<div class="company-text">
+			<span>A <b>BeeCloud</b> nasceu no ano de 2004, oferecendo serviços de consultoria especializada em <b>CRM</b> (Customer Relationship Management).</span><br><br>
+			<span>Ao longo dos anos, depois de trabalhar com algumas das principais ferramentas de CRM do mercado, identificamos no CRM da Salesforce.com um grande diferencial em relação às demais ferramentas de CRM. A plataforma onde o CRM da Salesforce.com foi construído nos permitia atingir nosso principal objetivo, <b>gerar valor para o negócio de nossos clientes até 5 vezes mais rápido que outros CRMs</b>.</span><br><br>
+			<span>Hoje a empresa oferece serviços de Consultoria e Outsourcing para implantação, customização, desenvolvimento e treinamento e capacitação de equipes de alta performance na plataforma <b>Salesforce.com</b>.</span><br><br>
+			<span>O principal objetivo da <b>BeeCloud</b> é fortalecer e capacitar as Áreas de Negócio através das mais inovadoras soluções em nuvem, promovendo a colaboração e inovação em seus projetos.</span>
+		</div>
+	</div>
+</section>
+
+<section id="clientes-e-parceiros">
+	<div class="container">
+		<h2>Cases de Sucesso</h2>
+		<div class="clientes">
+			<a href=""><img data-lazy="images/clientes/cliente1.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente2.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente3.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente4.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente5.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente6.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente7.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente8.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente9.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente10.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente11.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente12.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente13.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente14.jpg"></a>
+			<a href=""><img data-lazy="images/clientes/cliente15.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente16.jpg"></a>
+			<a href=""><img data-lazy="images/clientes/cliente17.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente18.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente19.png"></a>
+			<a href=""><img data-lazy="images/clientes/cliente20.png"></a>
+		</div>	
+		<h2>Nossos Parceiros</h2>
+		<div class="parceiros">
+			<a href=""><img src="images/parceiro1.png"></a>
+			<a href=""><img src="images/parceiro2.png"></a>
+		</div>	
+	</div>
+</section>
+
+<section id="contato">
+	<div class="container">
+		<h2>Contato</h2>
+		<span>Dúvidas, Críticas ou Sugestões? Entre em contato pelo formulário abaixo e retornaremos o mais breve possível.</span>
+		<form>
+			<div class="left-fields">
+				<input type="text" id="nome" name="nome" placeholder="Nome">
+				<input type="email" id="email" name="email" placeholder="Email">
+				<input type="text" maxlength="12" id="phone" name="phone" placeholder="Telefone ou Celular">
+				<input type="text" id="assunto" name="assunto" placeholder="Assunto">
+			</div>
+			<div class="right-fields">
+				<textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem"></textarea>
+			</div><br>
+			<button type="submit" value="Enviar" id="enviar" name="enviar">
+		</form>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="left-um">
+			<span class="footer-tit">Nos siga no facebook!</span>
+			<div class="fb-page" data-href="https://www.facebook.com/beecloudsolutions/" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/beecloudsolutions/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/beecloudsolutions/">BeeCloud</a></blockquote></div>
+		</div>
+		<div class="left-dois">
+			<span class="footer-tit">Central de Atendimento</span>
+			<span>Rua Padre Roque, 1135, Centro - Sala 12</span>
+			<span>Mogi Mirim / SP</span>
+			<span>13800-033</span>
+			<span>Telefones:</span>
+			<span>(11) 4280 7825</span>
+			<span>(11) 9 7535 7160</span>
+			<span>(11) 9 9160 4536</span>
+		</div>
+		<div class="right-um">
+			<span class="footer-tit">Social</span>
+			<div class="redes">
+				<a href="https://www.facebook.com/beecloudsolutions/" target="_blank"><img src="images/footer/facebook.png"></a>
+				<a href="https://www.youtube.com/user/rcdnet" target="_blank"><img src="images/footer/youtube.png"></a>
+				<a href="https://www.linkedin.com/company/beecloud-solutions/" target="_blank"><img src="images/footer/linkedin.png"></a>
+			</div>
+			<div class="video">
+				<div class="video-container">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/Ylpv04qfV-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="right-dois">
+			<span class="footer-tit">Certificados</span>
+			<div class="logos">
+				<img src="images/footer/certi1.jpg">
+				<img src="images/footer/certi2.jpg">
+				<img src="images/footer/certi3.jpg">
+				<img src="images/footer/certi4.jpg">
+				<img src="images/footer/certi5.jpg">
+				<img src="images/footer/certi6.jpg">
+				<img src="images/footer/certi7.jpg">
+				<img src="images/footer/certi8.jpg">
+			</div>
+		</div>
+
+		<div class="certificados"></div>
+		<div class="copyright">
+			© 2020 BeeCloud | Todos os direitos reservados.<br>
+			CNPJ: 07 286 336/0001_01<br>
+			Desenvolvido por: <a href="https://www.linkedin.com/in/diogoceribelimello/" target="_blank">Diogo Ceribelli</a>
+		</div>
+	</div>
+</footer>
+
+<!-- Scripts externos -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/slick/slick.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('a[href="#home"]').addClass('active');
+	})
+	jQuery('nav a').click(function(){
+		jQuery('nav a').removeClass('active');
+		jQuery(this).addClass('active');
+	})
+</script>
+<!-- sliders -->
+<script type="text/javascript">
+	jQuery('img').attr('draggable', 'false');
+	$(document).ready(function(){
+	  $('.banner-slide').slick({
+	  	dots: true,
+	  	lazyLoad: 'ondemand',
+	  	autoplay: true,
+	  	autoplaySpeed: 4000
+	  });
+	});
+</script>
+<script type="text/javascript">
+	$('.clientes').slick({
+	  dots: true,
+	  lazyLoad: 'ondemand',
+	  infinite: true,
+	  autoplay: true,
+	  autoplaySpeed: 3000,
+	  speed: 300,
+	  slidesToShow: 5,
+	  slidesToScroll: 5,
+	  responsive: [
+	  	{
+	      breakpoint: 1300,
+	      settings: {
+	        slidesToShow: 4,
+	        slidesToScroll: 4,
+	        infinite: true,
+	        dots: true
+	      }
+	    },
+	    {
+	      breakpoint: 1024,
+	      settings: {
+	        slidesToShow: 3,
+	        slidesToScroll: 3,
+	        infinite: true,
+	        dots: true
+	      }
+	    },
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 2,
+	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
+	      }
+	    }
+	    // You can unslick at a given breakpoint now by adding:
+	    // settings: "unslick"
+	    // instead of a settings object
+	  ]
+	});
+</script>
 </body>
 </html>

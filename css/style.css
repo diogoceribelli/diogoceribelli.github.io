@@ -305,9 +305,11 @@ footer .footer-tit {
     text-align: center;
     display: inline-block;
     font-size: 18px;
-    padding: 10px 0;
-    margin-bottom: 5px;
-    background-color: #fff;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #636363;
+    font-weight: 500;
+    padding-bottom: 5px;
 }
 .left-dois span:not(.footer-tit) {
     font-size: 14px;

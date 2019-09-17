@@ -60,6 +60,13 @@ div.header {
 header nav {
 	flex: 1;
 }
+header nav ul li a {
+	user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
 header .container, header .container nav ul {
     display: flex;
 }

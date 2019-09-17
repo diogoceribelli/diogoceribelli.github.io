@@ -351,3 +351,146 @@ footer .logos {
 .logos img {
     width: 32%;
 }
+
+@media screen and (max-width:1010px) and (min-width:901px) {
+    .logos img {
+        width: 48%;
+    }
+}
+@media screen and (max-width:900px) and (min-width:751px) {
+	header .container nav ul li {
+		padding: 10px 0;
+	}
+	.redes img {
+	    margin: 0 5px;
+	}
+	.logos img {
+	    width: 48%;
+	}
+	footer .logos {
+	    margin-top: 0px;
+	}
+	#bem-vindo {
+	    padding: 10px 0 40px;
+	}
+}
+@media screen and (max-width:750px) {
+	#bem-vindo {
+	    padding-top: 5px;
+	}
+	header .container {
+	    flex-direction: row-reverse;
+	}
+	header .container, header .container nav ul {
+	    display: block;
+	}
+	.logo img {
+	    position: relative;
+	}
+	.logo img, .logo {
+	    width: 200px;
+	    height: auto;
+	    line-height: 80px;
+	    float: right;
+	    margin-right: 10px;
+	    margin-top: 8px;
+	}
+	.logo {
+		display: none;
+	}
+	.logo.mobile {
+		display: block !important;
+	}
+	.menu img {
+	    width: 50px;
+	    margin-left: 20px;
+	}
+	header .menu {
+	    display: inline-block !important;
+	    width: 50%;
+	    height: 70px;
+	    line-height: 104px;
+	}
+	header nav {
+	    position: absolute;
+	    width: 100%;
+	    background-color: #00000075;
+	    margin-top: -70px;
+	    display: none;
+	}
+	header .container nav ul li a {
+	    font-size: 25px;
+	    color: #fff;
+	    text-transform: uppercase;
+	}
+	header .container nav ul li a.active {
+	    background-color: #25c9dc;
+	    padding: 10px;
+	    border-radius: 10px;
+	}
+	header nav .close img {
+	    display: block !important;
+	    position: absolute;
+	    right: 30px;
+	    top: 30px;
+	}
+	#servicos .bloco {
+	    width: 95%;
+	    height: 200px;
+	    background-color: #fff;
+	    border-radius: 10px;
+	    display: inline-block;
+	    margin: 0;
+	    margin-top: 20px;
+	}
+	#servicos .bloco .text-block {
+	    width: 70%;
+	    display: inline-block;
+	    margin: 10px;
+	    padding: 15px 0;
+	}
+	#servicos .bloco img {
+	    display: inline-block;
+	    width: 20%;
+	    margin: 10px;
+	    margin-top: 10%;
+	}
+	.button {
+	    width: 160px;
+	}
+	.button.yellow {
+	    margin-left: 5%;
+	}
+	.button.blue {
+	    margin-right: 5%;
+	}
+	#contato form {
+	    display: unset;
+	}
+}
+
+@media screen and (max-width:430px) {
+	.button {
+	    width: 135px;
+	    font-size: 11px;
+	}
+	.logo img, .logo {
+	    width: 150px;
+	    margin-top: 10px;
+	}
+	header .container nav ul li a {
+	    font-size: 15px;
+	}
+	header nav .close img {
+	    width: 30px;
+	}
+	#contato input, #contato textarea {
+	    min-width: unset;
+	}
+	#servicos .bloco .text-block {
+	    width: 66%;
+	}
+	#servicos .bloco {
+	    height: auto;
+	}
+}

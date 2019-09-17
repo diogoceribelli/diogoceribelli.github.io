@@ -28,7 +28,9 @@
 	<div class="header">
 		<div class="container">
 			<h1 style="display: none;">BeeCloud Solutions</h1>
+			<div class="menu" style="display: none;"><img src="images/menu.png"></div>
 			<div class="logo"><img src="images/logo.png"></div>
+			<div class="logo mobile" style="display: none;"><img src="images/mobilelogo.png"></div>
 			<nav>
 				<ul>
 					<li><a href="#home">Home</a></li>
@@ -39,6 +41,7 @@
 					<li><a href="#contato">Contato</a></li>
 					<li><a href="https://www.salesforce.com/br/?ir=1" target="_blank">Blog</a></li>
 				</ul>
+				<div class="close"><img style="display: none;" src="images/close.png"></div>
 			</nav>
 		</div>
 	</div>
@@ -234,7 +237,16 @@ O nosso objetivo é melhorar o seu negócio.</h3>
 </script>
 <!-- sliders -->
 <script type="text/javascript">
+
+	jQuery('header .menu img').click(function(){
+		jQuery('header nav').show();
+	})
+	jQuery('header nav .close img').click(function(){
+		jQuery('header nav').hide()
+	})
+
 	jQuery('img').attr('draggable', 'false');
+
 	$(document).ready(function(){
 	  $('.banner-slide').slick({
 	  	dots: true,

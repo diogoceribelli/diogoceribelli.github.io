@@ -310,6 +310,7 @@ footer .footer-tit {
     border-bottom: 1px solid #636363;
     font-weight: 500;
     padding-bottom: 5px;
+    padding-left: 12px;
 }
 .left-dois span:not(.footer-tit) {
     font-size: 14px;
@@ -350,6 +351,30 @@ footer .logos {
 }
 .logos img {
     width: 32%;
+}
+footer .left-um span.footer-tit::before {
+	content: url(../images/footer/miniface.png);
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+footer .left-dois span.footer-tit::before {
+	content: url(../images/footer/miniphone.png);
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+footer .right-um span.footer-tit::before {
+	content: url(../images/footer/minisocial.png);
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+footer .right-dois span.footer-tit::before {
+	content: url(../images/footer/minimedal.png);
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -5px;
 }
 
 @media screen and (max-width:1010px) and (min-width:901px) {
@@ -453,26 +478,87 @@ footer .logos {
 	    display: inline-block;
 	    width: 20%;
 	    margin: 10px;
-	    margin-top: 10%;
+	    margin-top: 25px;
 	}
 	.button {
-	    width: 160px;
+	    width: 60%;
+	    display: inline-block;
+	    margin-top: 20px !important;
 	}
 	.button.yellow {
-	    margin-left: 5%;
+	   margin: 0;
+	   float: unset;
 	}
 	.button.blue {
-	    margin-right: 5%;
+	  margin: 0;
+	  float: unset;
 	}
 	#contato form {
 	    display: unset;
+	}
+	button#enviar {
+	    width: 230px;
+	    height: 50px;
+	}
+		footer .container .left-um {
+	    display: none;
+	}
+	footer .left-um, footer .left-dois, footer .right-um, footer .right-dois {
+	    width: 100%;
+	    margin: 0px;
+	}
+	footer .footer-tit {
+	    border-bottom: unset;
+	    padding-bottom: unset;
+	    padding-left: unset;
+	    margin-top: 20px;
+	}
+	.video-container {
+	    display: none;
+	}
+	.left-dois span:not(.footer-tit) {
+	    text-align: center;
+	}
+	footer .left-dois span.footer-tit::before {
+	    content: url(../images/footer/miniphone.png);
+	    position: relative;
+	    display: inline-block;
+	    width: 100vw;
+	    margin-bottom: 10px;
+	    float: right;
+	}
+	footer .right-um span.footer-tit::before {
+    	content: url(../images/footer/minisocial.png);
+	    position: relative;
+	    display: inline-block;
+	    width: 100vw;
+	    margin-bottom: 10px;
+	    float: right;
+	}
+	footer .right-dois span.footer-tit::before {
+	    content: url(../images/footer/minimedal.png);
+	    position: relative;
+	    display: inline-block;
+	    width: 100vw;
+	    margin-bottom: 10px;
+	    float: right;
+	}
+	.redes img {
+	    width: 50px;
+	}
+	.logos img {
+	    width: 30%;
+	    padding: 15px;
+	}
+	footer .logos {
+	   margin-top: 0px;
+	   text-align: center;
 	}
 }
 
 @media screen and (max-width:430px) {
 	.button {
-	    width: 135px;
-	    font-size: 9px;
+	    font-size: 12px;
 	}
 	.logo img, .logo {
 	    width: 150px;
@@ -487,14 +573,17 @@ footer .logos {
 	#contato input, #contato textarea {
 	    min-width: unset;
 	}
+	#servicos {
+		margin-top: 0px;
+	}
 	#servicos .bloco .text-block {
 	    width: 66%;
 	}
 	#servicos .bloco {
 	    height: auto;
 	}
-	button#enviar {
-	    width: 230px;
-	    height: 50px;
+	#clientes-e-parceiros .parceiros a img {
+	    max-width: 110px;
+	    max-height: 110px;
 	}
 }

@@ -556,6 +556,17 @@ footer .right-dois span.footer-tit::before {
 	}
 }
 
+@media screen and (max-width:750px) and (min-width:431px) {
+	header .container nav ul li {
+	    display: inline-block;
+	}
+	header nav .close img {
+	    right: 25px;
+	    top: 55px;
+	    width: 40px;
+	}
+}
+
 @media screen and (max-width:430px) {
 	.button {
 	    font-size: 12px;

@@ -445,7 +445,7 @@ footer .right-dois span.footer-tit::before {
 	header nav {
 	    position: absolute;
 	    width: 100%;
-	    background-color: #00000075;
+	    background-color: #000000e3;
 	    display: none;
 	}
 	header .container nav ul li a {

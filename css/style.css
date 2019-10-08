@@ -18,6 +18,13 @@ html {
     max-width: 1380px;
     margin: 0 auto;
 }
+.banners-principais .container {
+    width: 100%;
+    max-width: 100%;
+}
+.slick-slide img {
+    width: 100%;
+}
 #bem-vindo .container h3 {
     font-size: 15px;
     padding: 20px 0;

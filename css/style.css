@@ -446,24 +446,23 @@ footer .right-dois span.footer-tit::before {
 	    position: absolute;
 	    width: 100%;
 	    background-color: #00000075;
-	    margin-top: -70px;
 	    display: none;
 	}
 	header .container nav ul li a {
-	    font-size: 25px;
 	    color: #fff;
 	    text-transform: uppercase;
 	}
 	header .container nav ul li a.active {
-	    background-color: #25c9dc;
-	    padding: 10px;
-	    border-radius: 10px;
+	    font-weight: bold;
+	    font-size: 20px;
+	    border: unset;
 	}
 	header nav .close img {
 	    display: block !important;
 	    position: absolute;
-	    right: 30px;
-	    top: 30px;
+	    left: 12px;
+	    top: -68px;
+	    width: 65px !important;
 	}
 	#servicos .bloco {
 	    width: 95%;
@@ -560,16 +559,23 @@ footer .right-dois span.footer-tit::before {
 	   margin-top: 0px;
 	   text-align: center;
 	}
+	header .container nav ul li {
+	    font-size: 15px;
+	    padding: 10px;
+	    border-bottom: 1px solid #fff;
+	    margin: 0px;
+	    line-height: unset;
+	}
 }
 
 @media screen and (max-width:750px) and (min-width:431px) {
-	header .container nav ul li {
-	    display: inline-block;
-	}
 	header nav .close img {
 	    right: 25px;
 	    top: 55px;
 	    width: 40px;
+	}
+	header nav .close img {
+	    top: -67px;
 	}
 }
 
@@ -582,7 +588,7 @@ footer .right-dois span.footer-tit::before {
 	    margin-top: 10px;
 	}
 	header .container nav ul li a {
-	    font-size: 15px;
+	    font-size: 20px;
 	}
 	header nav .close img {
 	    width: 30px;
@@ -598,6 +604,9 @@ footer .right-dois span.footer-tit::before {
 	}
 	#servicos .bloco {
 	    height: auto;
+	}
+	header .container nav ul li a.active {
+	    font-size: 25px;
 	}
 	#clientes-e-parceiros .parceiros a img {
 	    max-width: 110px;

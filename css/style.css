@@ -14,6 +14,10 @@ html {
     margin: 0 auto;
     text-align: center;
 }
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
 #bem-vindo .container h3 {
     font-size: 15px;
     padding: 20px 0;
